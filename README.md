@@ -96,8 +96,8 @@ The full API documentation is available here:
 ## 📝 **API Endpoints**
 | Method | Endpoint                          | Description                     |
 |--------|-----------------------------------|---------------------------------|
-| `GET`  | `/api/appointments/slots?date=YYYY-MM-DD` | Fetch available time slots      |
-| `POST` | `/api/appointments/book`         | Book an appointment            |
+| `GET`  | `/appointment/slots?date=YYYY-MM-DD` | Fetch available time slots      |
+| `POST` | `/appointment/book`         | Book an appointment            |
 
 For detailed API usage, check the **[API Documentation](https://www.apidog.com/apidoc/shared-0d1e1cf3-6bf9-4346-ae3f-51a884c89a02/book-an-appointment-by-date-and-time-14653784e0)**.
 
