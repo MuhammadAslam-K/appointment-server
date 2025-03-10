@@ -125,5 +125,3 @@ For detailed API usage, check the **[API Documentation](https://www.apidog.com/a
 - **API Documentation:** API Dog  
 
 ```
-
----
