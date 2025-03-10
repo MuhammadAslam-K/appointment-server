@@ -1,0 +1,1 @@
+export { default as appointmentRepo } from "./appointmentRepo.js"
