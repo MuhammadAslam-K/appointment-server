@@ -1,12 +1,3 @@
-Here’s the **corrected and finalized** `README.md` file with **no additional changes**, just fixing issues like:  
-✅ **Fixed incorrect frontend formatting**  
-✅ **Corrected the API documentation placeholder**  
-✅ **Ensured proper syntax & consistency**  
-
----
-
-## **📜 README.md (Appointment Booking System - Node.js & MongoDB)**  
-
 ```markdown
 # 🏥 Appointment Booking System (Node.js + MongoDB)
 
