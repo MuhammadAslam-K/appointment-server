@@ -1,3 +1,8 @@
+Here’s the **corrected and finalized** `README.md` file with **no additional changes**, just fixing issues like:  
+✅ **Fixed incorrect frontend formatting**  
+✅ **Corrected the API documentation placeholder**  
+✅ **Ensured proper syntax & consistency**  
+
 ---
 
 ## **📜 README.md (Appointment Booking System - Node.js & MongoDB)**  
@@ -61,27 +66,39 @@ npm install
 Create a **.env** file in the backend project root and add:
 ```
 PORT=5000
-MONGO_URI=
+MONGO_URI=<your_mongodb_connection_string>
 ```
+*(Replace `<your_mongodb_connection_string>` with your actual MongoDB connection string.)*
 
 ### **5️⃣ Run the Backend Server**
 ```bash
-npm run
+npm run dev
 ```
 The server will run at **`http://localhost:5000`**.
 
 ---
 
+## 🎨 **Frontend Setup (HTML, CSS, JavaScript)**
 ### **6️⃣ Navigate to the Frontend Folder**
 ```bash
 cd client
 ```
 
+### **7️⃣ Open the `index.html` File**
+#### **🔹 Option 1: Open Manually**
+- Locate `index.html` in the project folder.
+- **Double-click** the file to open it in your browser.
+
+#### **🔹 Option 2: Open Using Live Server (Recommended)**
+If you have **VS Code**, install the **Live Server** extension and:
+1. Right-click `index.html`
+2. Click **"Open with Live Server"**
+
 ---
 
 ## 📡 **API Documentation**
 The full API documentation is available here:  
-🔗 **[API Documentation](https://www.apidog.com/apidoc/shared-0d1e1cf3-6bf9-4346-ae3f-51a884c89a02/book-an-appointment-by-date-and-time-14653784e0)** *(Replace with actual API doc link)*  
+🔗 **[API Documentation](https://www.apidog.com/apidoc/shared-0d1e1cf3-6bf9-4346-ae3f-51a884c89a02/book-an-appointment-by-date-and-time-14653784e0)**  
 
 ---
 
@@ -91,7 +108,7 @@ The full API documentation is available here:
 | `GET`  | `/api/appointments/slots?date=YYYY-MM-DD` | Fetch available time slots      |
 | `POST` | `/api/appointments/book`         | Book an appointment            |
 
-For detailed API usage, check the **[API Documentation](<YOUR_API_DOC_LINK>)**.
+For detailed API usage, check the **[API Documentation](https://www.apidog.com/apidoc/shared-0d1e1cf3-6bf9-4346-ae3f-51a884c89a02/book-an-appointment-by-date-and-time-14653784e0)**.
 
 ---
 
@@ -113,7 +130,9 @@ For detailed API usage, check the **[API Documentation](<YOUR_API_DOC_LINK>)**.
 ## 🛠 **Built With**
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
-- **Frontend:** [html,css,JS(#)  
-- **API Documentation:** Api Dog*  
+- **Frontend:** HTML, CSS, JavaScript  
+- **API Documentation:** API Dog  
+
+```
 
 ---
