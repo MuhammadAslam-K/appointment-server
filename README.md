@@ -1,4 +1,4 @@
-```markdown
+
 # 🏥 Appointment Booking System (Node.js + MongoDB)
 
 This is a **Node.js & Express** server for an **Appointment Booking System** that allows users to **view available time slots** and **book appointments**. The system is built with **MongoDB** for database storage and follows a **clean architecture**.
